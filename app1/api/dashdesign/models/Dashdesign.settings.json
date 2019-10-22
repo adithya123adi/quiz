@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "dashdesigns",
+  "info": {
+    "name": "dashdesign",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "banner": {
+      "type": "json"
+    },
+    "columnfour": {
+      "type": "json"
+    }
+  }
+}

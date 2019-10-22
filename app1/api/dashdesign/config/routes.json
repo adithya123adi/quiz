@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dashdesigns",
+      "handler": "Dashdesign.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dashdesigns/count",
+      "handler": "Dashdesign.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dashdesigns/:id",
+      "handler": "Dashdesign.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/dashdesigns",
+      "handler": "Dashdesign.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dashdesigns/:id",
+      "handler": "Dashdesign.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dashdesigns/:id",
+      "handler": "Dashdesign.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

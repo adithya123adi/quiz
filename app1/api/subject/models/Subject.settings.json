@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "subjects",
+  "info": {
+    "name": "subject",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "subname": {
+      "type": "string"
+    },
+    "dropdown": {
+      "model": "dropdown",
+      "via": "subjects"
+    },
+    "design": {
+      "type": "json"
+    },
+    "subid": {
+      "type": "string"
+    },
+    "chapters": {
+      "collection": "chapter",
+      "via": "subject"
+    }
+  }
+}

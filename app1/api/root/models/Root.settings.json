@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "roots",
+  "info": {
+    "name": "root",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "dropdowns": {
+      "collection": "dropdown",
+      "via": "root"
+    }
+  }
+}

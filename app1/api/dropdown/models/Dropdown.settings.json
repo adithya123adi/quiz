@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "dropdowns",
+  "info": {
+    "name": "dropdown",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "root": {
+      "model": "root",
+      "via": "dropdowns"
+    },
+    "dashdesign": {
+      "model": "dashdesign"
+    },
+    "subjects": {
+      "collection": "subject",
+      "via": "dropdown"
+    }
+  }
+}

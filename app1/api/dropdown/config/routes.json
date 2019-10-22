@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dropdowns",
+      "handler": "Dropdown.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dropdowns/count",
+      "handler": "Dropdown.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dropdowns/:id",
+      "handler": "Dropdown.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/dropdowns",
+      "handler": "Dropdown.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dropdowns/:id",
+      "handler": "Dropdown.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dropdowns/:id",
+      "handler": "Dropdown.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "chapters",
+  "info": {
+    "name": "chapter",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "chapterid": {
+      "type": "string"
+    },
+    "chapter": {
+      "type": "string"
+    },
+    "subject": {
+      "model": "subject",
+      "via": "chapters"
+    }
+  }
+}
